@@ -1,11 +1,12 @@
 body {
     margin: 0;
 }
+/*MENU*/
 .menu-container {
     background: url(../img/menu.png) no-repeat center top;
     background-size: contain;
-    width: 1280px;
-    height: 200px;
+    width: 1340px;
+    height: 210px;
     margin: 0 auto;
     margin-top: 20px;
 }
@@ -43,4 +44,39 @@ body {
 }
 a {
     padding: 0 10px;
+}
+
+.content {
+    width: 1340px;
+    height: 385px;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+.flex, .flex * {
+    display: flex;
+}
+.slider {
+    height: 100%;
+}
+.slider * {
+    height: 100%;
+    background-color: bisque;
+    background-size: cover;
+}
+.s-left {
+    order: 0;
+    flex: 2;
+    background-position: right;
+}
+.s-center {
+    order: 1;
+    flex: 3;
+    margin: 0 10px;
+    background-position: center;
+}
+.s-right {
+    order: 2;
+    flex: 2;
+    background-position: left;
 }
